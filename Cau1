@@ -1,0 +1,18 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int a,b,c,d;
+    cout << "\nNhap vao 4 so nguyen.";
+    cout << "\na = ";
+    cin >> a;
+    cout <<"\nb = ";
+    cin >> b;
+    cout <<"\nc = ";
+    cin >>c;
+    cout <<"\nd = ";
+    cin >> d;
+    cout <<"\nTrung binh cong cua 4 so la "<<(double)(a+b+c+d)/4;
+    return 0;
+}
