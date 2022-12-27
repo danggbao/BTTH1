@@ -1,0 +1,15 @@
+#include<iostream>
+
+using namespace std;
+
+int main(){
+    int a , b;
+    cout <<"\nHai so nguyen duong lan luot la ";
+    cout <<"\na = "; cin >> a;
+    cout <<"\nb = "; cin >> b;
+    cout <<"\nTong = " << a + b;
+    cout <<"\nHieu = " << a - b;
+    cout <<"\nTich = " << a * b;
+    cout <<"\nThuong = " << a / b;
+    return 0;
+}
